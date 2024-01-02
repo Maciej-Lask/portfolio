@@ -1,0 +1,20 @@
+@import '../../../styles/settings.scss';
+
+.contactPage {
+  background-image: url('/images/backgrounds/pexels-matheus-oliveira-10949676.jpg');
+  background-size: cover;
+  min-height: 100vh;
+
+  p,
+  h1,
+  h2 {
+    color: $color-text-bright;
+  }
+
+  .links {
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: $color-text-bright;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,37 @@
+@import '../../../styles/settings.scss';
+
+.mainMenu{
+  background-color: $color-theme-2;
+
+  
+  .navbar-toggler {
+    right: 1rem;
+  }
+  
+  .navItem {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  img{
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .navbarBrand{
+    margin: 0;
+  }
+    @media screen and (max-width: 768px) {
+    img {
+      display: none;
+    }
+  }
+  
+  
+  .logo {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+  }
+}

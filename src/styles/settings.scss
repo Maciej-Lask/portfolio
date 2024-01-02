@@ -1,0 +1,40 @@
+
+
+$color-theme-1: #141414;
+$color-theme-2: #1d1d1d;
+$color-theme-3: #fff;
+$color-theme-4: #3498db;
+$color-theme-5: #218c74;
+$color-theme-6: #f0932b;
+$color-theme-7: cornsilk;
+$color-theme-8: #d68529;
+
+$color-text: #141414;
+$color-text-light: #1d1d1d;
+$color-text-bright: $color-theme-3;
+$color-primary: #3498db;
+$color-secondary: $color-theme-5;
+$color-background: $color-theme-3;
+$color-cornsilk: cornsilk;
+$color-light-grey: #ddd;
+
+
+
+$color-button: $color-theme-8;
+$color-button-hover: $color-theme-6;
+
+
+$font-header: 'Source Sans Pro', sans-serif;
+$font-text: 'Source Sans Pro', sans-serif;
+
+$base-size: 14px;
+$transition: all 0.5s;
+
+
+
+@mixin p-el($element) {
+  &:#{$element}, &::#{$element} {
+    position: absolute;
+    @content;
+  }
+}
