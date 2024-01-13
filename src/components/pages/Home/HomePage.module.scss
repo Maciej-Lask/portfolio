@@ -1,11 +1,9 @@
 @import '../../../styles/settings.scss';
 
 .homePage {
-  background-image: url('/images/backgrounds/pexels-matheus-oliveira-10949676.jpg');
-  background-size: cover;
-  min-height: 100vh;
 
-  header {
+
+  header, .contactSection {
     h1,
     p {
       color: $color-text-bright;

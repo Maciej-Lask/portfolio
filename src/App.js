@@ -4,7 +4,7 @@ import MainLayout from './components/layout/MainLayout/MainLayout';
 import Home from './components/pages/Home/HomePage';
 import NotFound from './components/pages/NotFound/NotFoundPage';
 
-import ContactPage from './components/pages/ButtonsPage/ContactPage';
+import ContactPage from './components/pages/ContactPage/ContactPage';
 
 const App = () => {
   return (
