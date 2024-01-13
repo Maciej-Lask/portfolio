@@ -17,4 +17,19 @@
     color: $color-text-bright;
     text-decoration: none;
   }
+
+  .card {
+    margin: 1.5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 18rem;
+    min-width: 10rem;
+    position: relative;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-10px);
+    }
+  }
 }
